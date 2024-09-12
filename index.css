@@ -1,0 +1,442 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body a{
+    text-decoration: none;
+    color: black;
+}
+.section-one{
+    background:url(https://themesvila.com/themes-wp/eduhap/wp-content/uploads/2023/08/pexels-max-fischer-52127001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-one .navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 0px 10px;
+    background-color:rgb(79, 255, 3);
+    height: 100px;
+}
+.section-one img{
+    width:200px; 
+}
+.section-one .fa-solid{
+    font-size: 30px;
+}
+.section-one nav{
+    display: none;
+}
+.section-one .hero-section{
+    padding: 50px;
+}
+.section-one .welcometext{
+    font-family: "Fraunces", serif;
+    font-weight:100px;
+    text-align: center;
+    color: rgb(52, 52, 199);
+    font-size: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 30px;
+}
+.section-one p, h1{
+    color: white;
+    text-align: left;
+}
+.section-one p{
+    font-family: "Questrial", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+.section-one h1{
+    font-family: "Fraunces", serif;
+    font-size: 200%;
+    font-weight:500px ;
+
+}
+.section-one .About{
+    display: grid;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.section-one .linkso a{
+    color: white;
+}
+.section-one .oc{
+    padding: 7px 7px;
+    background-color:rgb(79, 255, 3) ;
+    border-radius: 5px;
+}
+.section-one .su{
+    color: white;
+}
+.section-one button{
+    width: 80px;
+    padding: 4px 8px;
+    background:transparent;
+    border-radius: 5px;
+}
+.section-one .text-col{
+    color: rgb(79, 255, 3);
+}
+
+/* section two begins */
+.section-twoo{
+    padding: 5%;
+    display: grid;
+    gap: 1rem;
+    text-decoration: none;
+    text-align: center;
+}
+.section-two .subheading{
+    color: #20ad96;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family:  "Fraunces", serif;
+    font-weight: 600; 
+}
+.section-two h3{
+    color:#3F3A64 ;
+    line-height: 34px;
+    font-size: 24px
+}
+.section-two p{
+    line-height: 20px;
+    font-family: "Questrial", sans-serif;
+    font-size:13px;
+}
+.section-two{
+    background-color:#F7F5F4 ;
+}
+.section-two .allinone{
+    display: grid;
+    justify-content: center;
+}
+/* all are for the whole */
+.section-two .business,.design{
+    color: #20ad96;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px
+}
+.section-two .Photographyy{
+    color: #3f3a64;
+    font-family: "Questrial", sans-serif ;
+    font-weight: 700;
+    padding: 0px 20% 0px 0%;
+}
+.section-two i{
+    color: #20ad96;
+    margin-right: 5px;
+}
+.section-two .iconspaces{
+    display: flex;
+}
+.section-two img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.section-two .iconicc{
+    padding-left: 15px;
+}
+.imagescontainerone, .imagescontainertwo, .imagescontainethree, .imagescontainerfour{
+    background-color: white;
+    padding: 15px;
+}
+
+.coursecontent{
+    display: grid;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.imagescontainethree .phptext{
+    font-size: 14px;
+    letter-spacing:0px ;
+    padding: 0px;
+}
+.imagescontainethree .UserExperience, .designn {
+    color: #20ad96;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0px;
+}
+.imagescontainethree .Photographyy{
+    padding: 0px 0px;
+    width: 100%;
+}
+.imagescontainerfour .financial {
+    color: #20ad96;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0px;
+}
+
+.imagescontainerfour .Photographyy{
+    padding: 0px 0px;
+    width: 100%;
+}
+.imagescontainerfour .phptext{
+    font-size: 14px;
+    letter-spacing:0px ;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1024px) {
+    .navigation{
+        padding: 60px 150px;
+    }
+    .section-one{
+        background-position: cover;
+    }
+    .section-one nav{
+        display: flex; 
+    }
+    .section-one .fa-solid{
+        display: none;
+    }
+    .section-one ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 4rem;
+        font-size: 20px;
+        font-family: "Barlow", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    } 
+    .section-one a,li{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+    }
+    .section-one .Contacts{
+        background-color: rgb(29, 7, 11);
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: white;
+    }
+    .section-one p{
+        text-align: left;
+        font-size: 20px;
+    }
+    .ptext{
+        padding: 10px 50% 10px 0%;
+    }
+    .linkso{
+    display: flex;
+    align-items: center;
+    gap:10%;
+}
+.wherelearn{ 
+    padding: 0px 70% 0px 0%;
+}
+
+/* section two begin  */
+
+.section-twoo{
+    display: block;
+    margin: auto;
+    line-height: 80px;
+}
+.section-two h3{
+    font-size: 48px;
+}
+.section-two p{
+    margin-top: 20px;
+    line-height: 50px;
+    font-size:30px;
+}
+.allinone{
+    grid-template-columns:repeat(4,1fr)
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen { */
+     /* */
+
+/* use to change new containers chnages */
+/* .imagescontainertwo{
+    padding: 15px 18px 10px 18px;
+}
+.imagescontainertwo img{
+    height: 190px;
+    
+}
+.imagescontainertwo .iconspaces{
+    padding-top: 0px;
+
+} */
+/* use to change new containers chnages */
+
+/* use to change new containers chnages */
+/* .imagescontainethree {
+    padding: 15px 15px 10px 15px;
+    line-height: 11px;
+}
+.imagescontainethree img{
+    height:190px;
+}
+.imagescontainethree .Photographyy{
+    font-size:15px;
+    line-height: 14px;
+} */
+/* use to change new containers chnages */
+
+/* use to change new containers chnages */
+/* .imagescontainerfour {
+    padding: 15px 15px 10px 15px;
+}
+.imagescontainerfour .Photographyy{
+    font-size:15px;
+    line-height: 14px;
+}
+
+
+.imagescontainerfour .coursecontent{
+    padding-top: 10px;
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .imagescontainertwo{
+    background-color: white;
+    padding: 15px 15px 10px 15px;
+}
+.imagescontainertwo img{
+    height:140px;
+}
+.imagescontainertwo  .iconspaces{
+    padding-top: 20px;
+} */
+/* use to change new containers chnages */
+
+/* use to change new containers chnages */
+/* .imagescontainethree {
+    padding: 15px 15px 10px 15px;
+    line-height: 12px;
+    background-color: white;
+}
+.imagescontainethree img{
+    height:140px;
+}
+.imagescontainethree .Photographyy{
+    font-size:15px;
+} */
+/* use to change new containers chnages */
+
+/* use to change new containers chnages */
+/* .imagescontainerfour {
+    background-color: white;
+    padding: 15px 15px 10px 15px;
+}
+.imagescontainerfour .Photographyy{
+    font-size:15px;
+} */
