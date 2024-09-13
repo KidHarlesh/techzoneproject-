@@ -197,6 +197,150 @@ body a{
 
 
 
+.section-threee{
+    background-color: #e1eef4;
+    padding: 10px;
+    display: grid;
+    
+}
+.section-threee .testimonialtext{
+    text-align: center;
+
+}
+.testimonialtext{
+    display: grid;
+    gap: 20px;
+    padding: 0px 30px;
+    
+}
+.testimonialtext .subheading{
+    font-family:  "Fraunces", serif;;
+    font-weight: 600;
+    font-size: 13px;
+    color: #20ad96;
+    letter-spacing: 2px;
+}
+.testimonialtext h3{
+    font-size: 24px;
+    line-height: 20px;
+    color: #3F3A64;
+}
+.testimonialtext p{
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.section-threee .container{
+    display: grid;
+}
+.container img{
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+
+.container .profiletextt{
+    color: #20ad96;
+    /* margin-top: 15px; */
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: "Fraunces", serif; 
+}
+.container h4{    
+    font-family:"Questrial", sans-serif ;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #3f3a64;
+}
+
+.section-threee .container{
+    display:grid;
+    gap: 1rem;
+    padding: 40px;
+}
+
+
+.section-threee .conA, .conB{
+    padding:0px 10px 15px 10px;
+    display: grid;
+    gap: 2rem;
+    background-color: aliceblue;
+    width:fit-content;
+}
+.section-threee  .subtext, .comment{
+    text-align: center;
+}
+
+
+
+.newletter{
+    padding: 20px;
+    width: max-content;
+    display: grid;
+    background-color:#a9c898  ;
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+}
+
+.newletter h3{
+    font-size: 40px;
+    line-height: 34px;
+    color: #3f3a64;
+}
+
+
+
+.newletterr{
+    font-family: "Fraunces", serif; 
+    font-weight: 600;
+    font-size: 13px;
+    color: #20ad96;
+}
+.newletter  input{
+    width: 80%;
+    border-radius: 5px;
+    padding: 25px;
+}
+.newletter button{
+    position: absolute;
+    right: 100px;
+    margin-top: 10px;
+    padding: 15px 40px;
+    background-color: #20ad96;
+    color: white;
+    border-radius: 5px;
+}
+
+.foot {
+color: rgb(72, 72, 72);
+background-color:rgb(62, 96, 47) ; 
+text-align: center;
+padding: 5%;
+}
+.footercl a{
+    color: rgb(114, 22, 22);
+    font-size: large;
+    font-family: "Questrial", sans-serif;
+
+}
+.Contactus{
+    color: rgb(51, 48, 44);
+    font-family: "Questrial", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -278,165 +422,35 @@ body a{
 .allinone{
     grid-template-columns:repeat(4,1fr)
 }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media screen { */
-     /* */
-
-/* use to change new containers chnages */
-/* .imagescontainertwo{
-    padding: 15px 18px 10px 18px;
-}
-.imagescontainertwo img{
-    height: 190px;
+.section-threee .container{
+    grid-template-columns:repeat(3,1fr);
     
 }
-.imagescontainertwo .iconspaces{
-    padding-top: 0px;
-
-} */
-/* use to change new containers chnages */
-
-/* use to change new containers chnages */
-/* .imagescontainethree {
-    padding: 15px 15px 10px 15px;
-    line-height: 11px;
+.section-threee .conA, .conB{
+    padding:15px 30px 15px 30px;
+    display: grid;
+    gap: 1rem;
+    width:70%;
 }
-.imagescontainethree img{
-    height:190px;
+.newletter{
+    padding: 40px;
+    grid-template-columns:repeat(2,1fr);
+    gap: 10px;
 }
-.imagescontainethree .Photographyy{
-    font-size:15px;
-    line-height: 14px;
-} */
-/* use to change new containers chnages */
-
-/* use to change new containers chnages */
-/* .imagescontainerfour {
-    padding: 15px 15px 10px 15px;
+.newletter .containernew{
+    display: grid;
+    gap: 1rem;
 }
-.imagescontainerfour .Photographyy{
-    font-size:15px;
-    line-height: 14px;
+.newletter input{
+    margin-top: 15px;
 }
-
-
-.imagescontainerfour .coursecontent{
-    padding-top: 10px;
-    
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .imagescontainertwo{
-    background-color: white;
-    padding: 15px 15px 10px 15px;
+.newletter button{
+    position: absolute;
+    right: 180px;
+    margin-top: 25px;
+    padding: 15px 40px;
 }
-.imagescontainertwo img{
-    height:140px;
+.newletterr{
+    font-size: 30px;
 }
-.imagescontainertwo  .iconspaces{
-    padding-top: 20px;
-} */
-/* use to change new containers chnages */
-
-/* use to change new containers chnages */
-/* .imagescontainethree {
-    padding: 15px 15px 10px 15px;
-    line-height: 12px;
-    background-color: white;
 }
-.imagescontainethree img{
-    height:140px;
-}
-.imagescontainethree .Photographyy{
-    font-size:15px;
-} */
-/* use to change new containers chnages */
-
-/* use to change new containers chnages */
-/* .imagescontainerfour {
-    background-color: white;
-    padding: 15px 15px 10px 15px;
-}
-.imagescontainerfour .Photographyy{
-    font-size:15px;
-} */
