@@ -302,15 +302,17 @@ body a{
     width: 80%;
     border-radius: 5px;
     padding: 30px;
+    
 }
-.newletter button{
+
+.newletter .buttonn{
     position: absolute;
-    right: 1px;
+    right: 4px;
     margin-top: 15px;
     padding: 15px 3px;
     background-color: #20ad96;
-    color: white;
     border-radius: 5px;
+
 }
 
 .foot {
@@ -444,7 +446,7 @@ padding: 5%;
 .newletter input{
     margin-top: 15px;
 }
-.newletter button{
+.newletter .buttonn{
     position: absolute;
     right: 20px;
     margin-top: 25px;
