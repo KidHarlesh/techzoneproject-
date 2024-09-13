@@ -301,13 +301,13 @@ body a{
 .newletter  input{
     width: 80%;
     border-radius: 5px;
-    padding: 25px;
+    padding: 30px;
 }
 .newletter button{
     position: absolute;
-    right: 100px;
-    margin-top: 10px;
-    padding: 15px 40px;
+    right: 80px;
+    margin-top: 15px;
+    padding: 15px 10px;
     background-color: #20ad96;
     color: white;
     border-radius: 5px;
