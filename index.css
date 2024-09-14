@@ -4,12 +4,8 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-body a{
-    text-decoration: none;
-    color: black;
-}
 .section-one{
-    background:url(mobileimage/pexels-max-fischer-52127001\ \(1\).jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(mobileimage/pexels-max-fischer-52127001\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -45,35 +41,44 @@ body a{
     padding: 15px;
     border-radius: 30px;
 }
-.section-one p, h1{
-    color: white;
-    text-align: left;
-}
 .section-one p{
     font-family: "Questrial", sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 20px;
     line-height: 30px;
+    color: white;
 }
 .section-one h1{
     font-family: "Fraunces", serif;
     font-size: 200%;
     font-weight:500px ;
-
+    text-align: left;
+    color: white;
 }
-.section-one .About{
+.section-one .hero-section{
     display: grid;
     justify-content: space-between;
     gap: 2rem;
 }
+.section-one .aboutstyle{
+    color:rgb(79, 255, 3) ;
+    font-size:20px;
+    font-family:  "Fraunces", serif;
+}
 .section-one .linkso a{
     color: white;
+    font-family: "Questrial", sans-serif;
 }
-.section-one .oc{
+.section-one .oc {
     padding: 7px 7px;
     background-color:rgb(79, 255, 3) ;
     border-radius: 5px;
+    font-family:"Questrial", sans-serif ;
+}
+.section-one a{
+    text-decoration: none;
+    list-style: none;
 }
 .section-one .su{
     color: white;
@@ -89,8 +94,16 @@ body a{
 }
 
 /* section two begins */
+.section-two{
+    background-color:#F7F5F4 ;
+}
+.section-two img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
 .section-twoo{
-    padding: 5%;
+    padding: 10%;
     display: grid;
     gap: 1rem;
     text-decoration: none;
@@ -113,15 +126,14 @@ body a{
     font-family: "Questrial", sans-serif;
     font-size:13px;
 }
-.section-two{
-    background-color:#F7F5F4 ;
-}
 .section-two .allinone{
     display: grid;
     justify-content: center;
+    background-color: white;
+    padding: 15px;
 }
 /* all are for the whole */
-.section-two .business,.design{
+.section-two .business, .design{
     color: #20ad96;
     text-transform: uppercase;
     font-size: 13px;
@@ -140,29 +152,20 @@ body a{
 .section-two .iconspaces{
     display: flex;
 }
-.section-two img{
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-}
 .section-two .iconicc{
     padding-left: 15px;
 }
 .imagescontainerone, .imagescontainertwo, .imagescontainethree, .imagescontainerfour{
-    background-color: white;
     padding: 15px;
-}
-
-.coursecontent{
+} 
+.section-two .coursecontent{
     display: grid;
     justify-content: space-between;
-    gap: 10px;
-}
+    gap: 10px; }   /* To put space btw busdesign ,photographyy, allicon */
 
 .imagescontainethree .phptext{
     font-size: 14px;
     letter-spacing:0px ;
-    padding: 0px;
 }
 .imagescontainethree .UserExperience, .designn {
     color: #20ad96;
@@ -170,48 +173,29 @@ body a{
     font-size: 13px;
     letter-spacing: 0px;
 }
-.imagescontainethree .Photographyy{
-    padding: 0px 0px;
-    width: 100%;
-}
 .imagescontainerfour .financial {
     color: #20ad96;
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: 0px;
 }
-
-.imagescontainerfour .Photographyy{
-    padding: 0px 0px;
-    width: 100%;
-}
 .imagescontainerfour .phptext{
     font-size: 14px;
-    letter-spacing:0px ;
+    letter-spacing:0px;
     padding: 0px;
 }
-
-
-
-
-
-
-
 .section-threee{
-    background-color: #e1eef4;
+    background-color: #d3e7f0;
     padding: 10px;
     display: grid;
     
 }
 .section-threee .testimonialtext{
     text-align: center;
-
-}
-.testimonialtext{
     display: grid;
     gap: 20px;
     padding: 0px 30px;
-    
+
 }
 .testimonialtext .subheading{
     font-family:  "Fraunces", serif;;
@@ -229,9 +213,10 @@ body a{
     line-height: 30px;
     font-size: 16px;
 }
-
 .section-threee .container{
     display: grid;
+    gap: 1rem;
+    padding: 40px;
 }
 .container img{
     width: 70px;
@@ -239,11 +224,9 @@ body a{
     margin-top: 10px;
 
 }
-
 .container .profiletextt{
     color: #20ad96;
-    /* margin-top: 15px; */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-weight: 600;
     font-family: "Fraunces", serif; 
 }
@@ -252,30 +235,24 @@ body a{
     font-weight: 700;
     line-height: 1.4;
     color: #3f3a64;
+    text-align: left;
 }
+.container p{
+    text-align: left;
+    padding-bottom:10px ;
 
-.section-threee .container{
-    display:grid;
-    gap: 1rem;
-    padding: 40px;
 }
-
-
 .section-threee .conA, .conB{
     padding:0px 10px 15px 10px;
     display: grid;
     gap: 2rem;
-    background-color: aliceblue;
-    width:fit-content;
+    background-color: white;
 }
 .section-threee  .subtext, .comment{
     text-align: center;
 }
-
-
-
 .newletter{
-    padding: 20px;
+    padding: 40px;
     width: max-content;
     display: grid;
     background-color:#a9c898  ;
@@ -283,15 +260,11 @@ body a{
     display: grid;
     gap: 1rem;
 }
-
 .newletter h3{
     font-size: 40px;
     line-height: 34px;
     color: #3f3a64;
 }
-
-
-
 .newletterr{
     font-family: "Fraunces", serif; 
     font-weight: 600;
@@ -304,19 +277,16 @@ body a{
     padding: 30px;
     
 }
-
 .newletter .buttonn{
     position: absolute;
-    right: 4px;
+    right: 90px;
     margin-top: 15px;
     padding: 15px 3px;
     background-color: #20ad96;
     border-radius: 5px;
-
 }
-
 .foot {
-color: rgb(72, 72, 72);
+color: rgb(0, 0, 0);
 background-color:rgb(62, 96, 47) ; 
 text-align: center;
 padding: 5%;
@@ -325,43 +295,17 @@ padding: 5%;
     color: rgb(114, 22, 22);
     font-size: large;
     font-family: "Questrial", sans-serif;
+    text-decoration: none;
 
 }
 .Contactus{
-    color: rgb(51, 48, 44);
+    color: rgb(0, 0, 0);
     font-family: "Questrial", sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (min-width:1024px) {
     .navigation{
         padding: 60px 150px;
-    }
-    .section-one{
-        background-position: cover;
     }
     .section-one nav{
         display: flex; 
@@ -385,14 +329,10 @@ padding: 5%;
         color: white;
     }
     .section-one .Contacts{
-        background-color: rgb(29, 7, 11);
+        background-color: black;
         padding: 10px 20px;
         border-radius: 10px;
         color: white;
-    }
-    .section-one p{
-        text-align: left;
-        font-size: 20px;
     }
     .ptext{
         padding: 10px 50% 10px 0%;
@@ -400,19 +340,12 @@ padding: 5%;
     .linkso{
     display: flex;
     align-items: center;
-    gap:10%;
+    gap:5%;
 }
 .wherelearn{ 
     padding: 0px 70% 0px 0%;
 }
-
 /* section two begin  */
-
-.section-twoo{
-    display: block;
-    margin: auto;
-    line-height: 80px;
-}
 .section-two h3{
     font-size: 48px;
 }
@@ -425,14 +358,14 @@ padding: 5%;
     grid-template-columns:repeat(4,1fr)
 }
 .section-threee .container{
+    margin-left: 10%;
     grid-template-columns:repeat(3,1fr);
-    
 }
 .section-threee .conA, .conB{
     padding:15px 30px 15px 30px;
     display: grid;
     gap: 1rem;
-    width:70%;
+    width:80%;
 }
 .newletter{
     padding: 40px;
@@ -447,9 +380,8 @@ padding: 5%;
     margin-top: 15px;
 }
 .newletter .buttonn{
-    position: absolute;
-    right: 20px;
-    margin-top: 25px;
+    margin-right: 100px;
+    margin-top: 30px;
     padding: 15px 40px;
 }
 .newletterr{
